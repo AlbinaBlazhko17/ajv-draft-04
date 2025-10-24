@@ -3,7 +3,7 @@ import type {
   // ErrorObject,
   KeywordCxt,
   // KeywordErrorDefinition,
-} from "ajv/dist/core"
+} from "@redocly/ajv/dist/core"
 import {LimitKwd, ExclusiveLimitKwd} from "./limitNumber"
 
 const KWDs: {[K in ExclusiveLimitKwd]: LimitKwd} = {

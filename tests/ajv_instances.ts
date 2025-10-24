@@ -1,5 +1,5 @@
-import type AjvCore from "ajv/dist/core"
-import type {Options} from "ajv/dist/core"
+import type AjvCore from "@redocly/ajv/dist/core"
+import type {Options} from "@redocly/ajv/dist/core"
 
 export default function getAjvInstances(
   _Ajv: typeof AjvCore,

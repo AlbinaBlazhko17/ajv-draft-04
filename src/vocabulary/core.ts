@@ -1,5 +1,5 @@
-import type {Vocabulary} from "ajv/dist/core"
-import refKeyword from "ajv/dist/vocabularies/core/ref"
+import type {Vocabulary} from "@redocly/ajv/dist/core"
+import refKeyword from "@redocly/ajv/dist/vocabularies/core/ref"
 
 const core: Vocabulary = [
   "$schema",

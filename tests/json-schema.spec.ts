@@ -27,6 +27,7 @@ const instances = getAjvInstances(_Ajv, options, {
 for (const ajv of instances) {
   ajv.opts.code.source = true
   for (const id in remoteRefs) ajv.addSchema(remoteRefs[id], id)
+  // @ts-ignore
   ajvFormats(ajv)
 }
 

@@ -3,10 +3,10 @@ import type {
   ErrorObject,
   KeywordCxt,
   KeywordErrorDefinition,
-} from "ajv/dist/core"
-import type {KeywordErrorCxt} from "ajv/dist/types"
-import {_, str, Code} from "ajv/dist/core"
-import {operators} from "ajv/dist/compile/codegen"
+} from "@redocly/ajv/dist/core"
+import type {KeywordErrorCxt} from "@redocly/ajv/dist/types"
+import {_, str, Code} from "@redocly/ajv/dist/core"
+import {operators} from "@redocly/ajv/dist/compile/codegen"
 
 const ops = operators
 

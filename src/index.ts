@@ -1,7 +1,7 @@
-import type {AnySchemaObject, Options} from "ajv/dist/core"
-import AjvCore from "ajv/dist/core"
+import type {AnySchemaObject, Options} from "@redocly/ajv/dist/core"
+import AjvCore from "@redocly/ajv/dist/core"
 import draft4Vocabularies from "./vocabulary/draft4"
-import discriminator from "ajv/dist/vocabularies/discriminator"
+import discriminator from "@redocly/ajv/dist/vocabularies/discriminator"
 import * as draft4MetaSchema from "./refs/json-schema-draft-04.json"
 
 const META_SUPPORT_DATA = ["/properties"]
@@ -63,7 +63,7 @@ export {
   SchemaValidateFunction,
   ErrorObject,
   ErrorNoParams,
-} from "ajv/dist/types"
+} from "@redocly/ajv/dist/types"
 
 export {
   Plugin,
@@ -72,10 +72,10 @@ export {
   InstanceOptions,
   Logger,
   ErrorsTextOptions,
-} from "ajv/dist/core"
-export {SchemaCxt, SchemaObjCxt} from "ajv/dist/core"
-export {KeywordCxt} from "ajv/dist/core"
-export {DefinedError} from "ajv/dist/core"
-export {JSONType} from "ajv/dist/core"
-export {JSONSchemaType} from "ajv/dist/core"
-export {_, str, stringify, nil, Name, Code, CodeGen, CodeGenOptions} from "ajv/dist/core"
+} from "@redocly/ajv/dist/core"
+export {SchemaCxt, SchemaObjCxt} from "@redocly/ajv/dist/core"
+export {KeywordCxt} from "@redocly/ajv/dist/core"
+export {DefinedError} from "@redocly/ajv/dist/core"
+export {JSONType} from "@redocly/ajv/dist/core"
+export {JSONSchemaType} from "@redocly/ajv/dist/core"
+export {_, str, stringify, nil, Name, Code, CodeGen, CodeGenOptions} from "@redocly/ajv/dist/core"
